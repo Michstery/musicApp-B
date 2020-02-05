@@ -12,19 +12,16 @@ const SideNav = props => {
       <nav className={drawerClasses}>
         <ul>
           <li>
-            <Link to="/"> Products </Link>
+            <Link to="/"> Home </Link>
           </li>
           <li>
-            <Link to="/Songs"> songs </Link>
+            <Link to="/Songs"> Mood </Link>
           </li>
           <li>
-            <Link to="/"> Products </Link>
+            <Link to="/playlist"> Songs </Link>
           </li>
           <li>
-            <Link to="/"> Products </Link>
-          </li>
-          <li>
-            <Link to="/"> Products </Link>
+            <Link to="/product"> Products </Link>
           </li>
         </ul>
       </nav>
