@@ -7,86 +7,56 @@ const Footer = () => {
       <div className="container">
         <div className="row text-center text-xs-center text-sm-left text-md-left">
           <div className="col-xs-12 col-sm-4 col-md-4">
-            <h5>Quick links</h5>
+            <h5> Get Started </h5>
             <ul className="list-unstyled quick-links">
               <li>
-                <a href="javascript:void();">
+                <a href="/">
                   <i className="fa fa-angle-double-right"></i>Home
                 </a>
               </li>
               <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>About
+                <a href="/playlist">
+                  <i className="fa fa-angle-double-right"></i>Song
                 </a>
               </li>
               <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>FAQ
-                </a>
-              </li>
-              <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>Get Started
-                </a>
-              </li>
-              <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>Videos
+                <a href="/product">
+                  <i className="fa fa-angle-double-right"></i>Blog
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-xs-12 col-sm-4 col-md-4">
-            <h5>Quick links</h5>
+            <h5>Discover</h5>
             <ul className="list-unstyled quick-links">
               <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>Home
+                <a href="/songs">
+                  <i className="fa fa-angle-double-right"></i>Mood
                 </a>
               </li>
               <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>About
+                <a href="/playlist">
+                  <i className="fa fa-angle-double-right"></i>Playlist
                 </a>
               </li>
               <li>
-                <a href="javascript:void();">
+                <a href="/">
                   <i className="fa fa-angle-double-right"></i>FAQ
-                </a>
-              </li>
-              <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>Get Started
-                </a>
-              </li>
-              <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>Videos
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-xs-12 col-sm-4 col-md-4">
-            <h5>Quick links</h5>
+            <h5>About Us</h5>
             <ul className="list-unstyled quick-links">
               <li>
-                <a href="javascript:void();">
+                <a href="/">
                   <i className="fa fa-angle-double-right"></i>Home
                 </a>
               </li>
               <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>About
-                </a>
-              </li>
-              <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>FAQ
-                </a>
-              </li>
-              <li>
-                <a href="javascript:void();">
-                  <i className="fa fa-angle-double-right"></i>Get Started
+                <a href="/product">
+                  <i className="fa fa-angle-double-right"></i>Blogs
                 </a>
               </li>
               <li>
@@ -101,7 +71,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <div className="col-xs-12 col-sm-12 col-md-12 mt-2 ">
             <ul className="list-unstyled list-inline social text-center">
               <li className="list-inline-item">
                 <a href="javascript:void();">
@@ -136,23 +106,10 @@ const Footer = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
             <p>
               <u>
-                <a href="https://www.nationaltransaction.com/">
-                  National Transaction Corporation
-                </a>
-              </u>{" "}
-              is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned
-              subsidiary of U.S. Bancorp, Minneapolis, MN]
+                <a href="https://musicapp-b.herokuapp.com/">MuZiXX</a>
+              </u>
             </p>
-            <p className="h6">
-              &copy All right Reversed.
-              <a
-                className="text-green ml-2"
-                href="https://www.sunlimetech.com"
-                target="_blank"
-              >
-                Sunlimetech
-              </a>
-            </p>
+            <p className="h6"></p>
           </div>
           <hr />
         </div>
