@@ -10,17 +10,17 @@ const Footer = () => {
             <h5> Get Started </h5>
             <ul className="list-unstyled quick-links">
               <li>
-                <a href="/">
+                <a href="https://musicapp-b.herokuapp.com/">
                   <i className="fa fa-angle-double-right"></i>Home
                 </a>
               </li>
               <li>
-                <a href="/playlist">
+                <a href="https://musicapp-b.herokuapp.com/playlist">
                   <i className="fa fa-angle-double-right"></i>Song
                 </a>
               </li>
               <li>
-                <a href="/product">
+                <a href="https://musicapp-b.herokuapp.com/product">
                   <i className="fa fa-angle-double-right"></i>Blog
                 </a>
               </li>
@@ -30,17 +30,17 @@ const Footer = () => {
             <h5>Discover</h5>
             <ul className="list-unstyled quick-links">
               <li>
-                <a href="/songs">
+                <a href="https://musicapp-b.herokuapp.com/songs">
                   <i className="fa fa-angle-double-right"></i>Mood
                 </a>
               </li>
               <li>
-                <a href="/playlist">
+                <a href="https://musicapp-b.herokuapp.com/playlist">
                   <i className="fa fa-angle-double-right"></i>Playlist
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="https://musicapp-b.herokuapp.com/">
                   <i className="fa fa-angle-double-right"></i>FAQ
                 </a>
               </li>
@@ -50,12 +50,12 @@ const Footer = () => {
             <h5>About Us</h5>
             <ul className="list-unstyled quick-links">
               <li>
-                <a href="/">
+                <a href="https://musicapp-b.herokuapp.com/">
                   <i className="fa fa-angle-double-right"></i>Home
                 </a>
               </li>
               <li>
-                <a href="/product">
+                <a href="https://musicapp-b.herokuapp.com/product">
                   <i className="fa fa-angle-double-right"></i>Blogs
                 </a>
               </li>
