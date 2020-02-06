@@ -7,7 +7,10 @@ import Instruction from "../Instruction";
 const Songs = () => {
   return (
     <div>
-      <div style={{ background: "#222222", height: "100%" }}>
+      <div
+        style={{ background: "#222222", height: "100%" }}
+        className="container-fluid"
+      >
         <div style={{ padding: "30px" }}>
           <Link to="/" style={{ color: "#fff", paddingBottom: "30px" }}>
             <button

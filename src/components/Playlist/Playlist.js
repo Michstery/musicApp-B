@@ -6,37 +6,11 @@ import SideNav from "../sideNav/SideNav";
 import BackDrop from "../backDrop/BackDrop";
 
 class Playlist extends React.Component {
-  state = {
-    sideDrawerOpen: false
-  };
-
-  drawerToggleClickHandler = () => {
-    this.setState(prevState => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen };
-    });
-  };
-
-  backdropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false });
-  };
-
   render() {
-    let backdrop;
-
-    if (this.state.sideDrawerOpen) {
-      backdrop = <BackDrop click={this.backdropClickHandler} />;
-    }
-
     return (
       <div style={{ background: "#4e575f" }}>
-        <Nav />
-        <SideNav
-          style={{ marginTop: "60px" }}
-          show={this.state.sideDrawerOpen}
-        />
         {/* Playlist Songs */}
         <div className="container pt-3">
-          {backdrop}
           <div className="card">
             <div
               className="card header"

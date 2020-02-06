@@ -5,41 +5,40 @@ import SideNav from "../../sideNav/SideNav";
 import BackDrop from "../../backDrop/BackDrop";
 
 import "./homepage.css";
-import { template } from "@babel/core";
 
 class HomePage extends React.Component {
-  state = {
-    sideDrawerOpen: false
-  };
+  // state = {
+  //   sideDrawerOpen: false
+  // };
 
-  drawerToggleClickHandler = () => {
-    this.setState(prevState => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen };
-    });
-  };
+  // drawerToggleClickHandler = () => {
+  //   this.setState(prevState => {
+  //     return { sideDrawerOpen: !prevState.sideDrawerOpen };
+  //   });
+  // };
 
-  backdropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false });
-  };
+  // backdropClickHandler = () => {
+  //   this.setState({ sideDrawerOpen: false });
+  // };
 
   render() {
-    let backdrop;
+    // let backdrop;
 
-    if (this.state.sideDrawerOpen) {
-      backdrop = <BackDrop click={this.backdropClickHandler} />;
-    }
+    // if (this.state.sideDrawerOpen) {
+    //   backdrop = <BackDrop click={this.backdropClickHandler} />;
+    // }
 
     return (
       <div style={{ height: "100%" }}>
-        <Nav drawerClickHandler={this.drawerToggleClickHandler} />
+        {/* <Nav drawerClickHandler={this.drawerToggleClickHandler} />
         <SideNav
           style={{ marginTop: "60px" }}
           show={this.state.sideDrawerOpen}
-        />
-        {/* hero section */}
+        /> */}
+        {/* hero section*/}
         <div className="first-section">
+          {/* {backdrop} */}
           <section style={{ marginTop: "60px" }}>
-            {backdrop}
             <div className="first-div">
               <h1>
                 We make Your Music <br />
@@ -66,7 +65,6 @@ class HomePage extends React.Component {
           </section>
         </div>
         {/* hero section ends here */}
-
         {/* banner section */}
         <section
           style={{
@@ -218,7 +216,6 @@ class HomePage extends React.Component {
           </div>
         </section>
         {/* banner section ends here */}
-
         {/* section 3 */}
         <section
           style={{
@@ -269,7 +266,6 @@ class HomePage extends React.Component {
           </div>
         </section>
         {/* section 3 ends here*/}
-
         {/* section 4 */}
         <section
           style={{

@@ -509,7 +509,7 @@ footer {
 .container .card .face.face2 h2 {
   margin: 0;
   padding: 0;
-  fontsize: 10em;
+  font-size: 2em;
   color: #fff;
   transition: 0.5s;
 }
